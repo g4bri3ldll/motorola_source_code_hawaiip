@@ -354,24 +354,13 @@ SYSCALL_DEFINE2(newlstat, const char __user *, filename,
 	return cp_new_stat(&stat, statbuf);
 }
 
-#ifdef CONFIG_KSU
-__attribute__((hot)) 
-extern int ksu_handle_stat(int *dfd, const char __user **filename_user,
-				int *flags);
-#endif
-
 #if !defined(__ARCH_WANT_STAT64) || defined(__ARCH_WANT_SYS_NEWFSTATAT)
 SYSCALL_DEFINE4(newfstatat, int, dfd, const char __user *, filename,
 		struct stat __user *, statbuf, int, flag)
 {
 	struct kstat stat;
 	int error;
-
-#ifdef CONFIG_KSU
-	if (current->mm && filename && !IS_ERR(filename)) {
-		ksu_handle_stat(&dfd, &filename, &flag);
-	}
-#endif
+	
     error = vfs_fstatat(dfd, filename, &stat, flag);
 	if (error)
 		return error;
