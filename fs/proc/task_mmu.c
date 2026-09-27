@@ -26,6 +26,10 @@
 #include <asm/tlbflush.h>
 #include "internal.h"
 
+#if defined(CONFIG_KSU_SUSFS_SUS_MAP_PATH) || defined(CONFIG_KSU_SUSFS_PROC_KSTAT)
+#include 
+#endif
+
 #define SEQ_PUT_DEC(str, val) \
 		seq_put_decimal_ull_width(m, str, (val) << (PAGE_SHIFT-10), 8)
 void task_mem(struct seq_file *m, struct mm_struct *mm)
