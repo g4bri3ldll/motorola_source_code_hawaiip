@@ -2941,7 +2941,6 @@ static inline int may_create(struct vfsmount *mnt, struct inode *dir, struct den
 {
 	struct user_namespace *s_user_ns;
 	audit_inode_child(dir, child, AUDIT_TYPE_CHILD_CREATE);
-
 	if (child->d_inode)
 		return -EEXIST;
 	if (IS_DEADDIR(dir))
