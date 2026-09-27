@@ -2941,6 +2941,18 @@ static inline int may_create(struct vfsmount *mnt, struct inode *dir, struct den
 {
 	struct user_namespace *s_user_ns;
 	audit_inode_child(dir, child, AUDIT_TYPE_CHILD_CREATE);
+
+#ifdef CONFIG_KSU_SUSFS_SUS_PATH
+	int error;
+	if (child->d_inode && unlikely(child->d_inode->i_state & INODE_STATE_SUS_PATH) && likely(current->susfs_task_state & TASK_STRUCT_NON_ROOT_USER_APP_PROC)) {
+		error = inode_permission(dir, MAY_WRITE | MAY_EXEC);
+		if (error) {
+			return error;
+		}
+		return -ENOENT;
+	}
+#endif
+	
 	if (child->d_inode)
 		return -EEXIST;
 	if (IS_DEADDIR(dir))
