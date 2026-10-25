@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/performance/tchbst/user/built-in.a :=  rm -f drivers/misc/mediatek/performance/tchbst/user/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/performance/tchbst/user/built-in.a drivers/misc/mediatek/performance/tchbst/user/utch.o

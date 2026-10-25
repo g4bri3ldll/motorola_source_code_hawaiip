@@ -1,0 +1,18 @@
+!<thin>
+//                                              120       `
+cpuidle.o/
+driver.o/
+governor.o/
+sysfs.o/
+governors/menu.o/
+governors/mtk_menu.o/
+dt_idle_states.o/
+cpuidle-mtk_acao.o/
+/0              0           0     0     644     291552    `
+/11             0           0     0     644     90480     `
+/21             0           0     0     644     87016     `
+/33             0           0     0     644     103696    `
+/42             0           0     0     644     32728     `
+/60             0           0     0     644     180896    `
+/82             0           0     0     644     65568     `
+/100            0           0     0     644     15056     `

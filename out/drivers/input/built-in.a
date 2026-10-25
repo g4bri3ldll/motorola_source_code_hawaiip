@@ -1,0 +1,37 @@
+!<thin>
+//                                              326       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+ff-memless.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/mtk-kpd.o/
+keyboard/mtk-pmic-keys.o/
+joystick/xpad.o/
+touchscreen/of_touchscreen.o/
+misc/uinput.o/
+aw9610x/aw_bin_parse.o/
+aw9610x/aw9610x.o/
+fingerprint/ET528/etxxx_fp.o/
+fingerprint/INCF7312/fpsensor_spi_tee.o/
+
+/0              0           0     0     644     401352    `
+/9              0           0     0     644     117920    `
+/25             0           0     0     644     164160    `
+/37             0           0     0     644     160120    `
+/48             0           0     0     644     177120    `
+/62             0           0     0     644     150720    `
+/76             0           0     0     644     409928    `
+/85             0           0     0     644     257128    `
+/103            0           0     0     644     198576    `
+/123            0           0     0     644     172560    `
+/149            0           0     0     644     272824    `
+/166            0           0     0     644     153176    `
+/196            0           0     0     644     279376    `
+/211            0           0     0     644     31480     `
+/235            0           0     0     644     418424    `
+/254            0           0     0     644     306368    `
+/284            0           0     0     644     432792    `

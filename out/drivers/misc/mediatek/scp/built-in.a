@@ -1,0 +1,22 @@
+!<thin>
+//                                              202       `
+cm4/scp_feature_table.o/
+cm4/scp_awake.o/
+cm4/scp_dvfs.o/
+cm4/v01/scp_helper.o/
+cm4/v01/scp_excep.o/
+cm4/v01/scp_ipi.o/
+cm4/v01/scp_irq.o/
+cm4/v01/scp_logger.o/
+cm4/v01/scp_l1c.o/
+cm4/v01/scp_scpctl.o/
+/0              0           0     0     644     4448      `
+/25             0           0     0     644     28912     `
+/42             0           0     0     644     280144    `
+/58             0           0     0     644     417432    `
+/80             0           0     0     644     165808    `
+/101            0           0     0     644     83120     `
+/120            0           0     0     644     14352     `
+/139            0           0     0     644     178080    `
+/161            0           0     0     644     6896      `
+/180            0           0     0     644     39736     `

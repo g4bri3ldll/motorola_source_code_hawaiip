@@ -1,0 +1,12 @@
+!<thin>
+//                                              158       `
+mtk_battery_oc_throttling.o/
+mtk_battery_percentage_throttling.o/
+mtk_low_battery_throttling.o/
+mtk_dynamic_loading_throttling.o/
+pmic_lbat_service_mt6357.o/
+/0              0           0     0     644     141400    `
+/29             0           0     0     644     189336    `
+/66             0           0     0     644     73568     `
+/96             0           0     0     644     252376    `
+/130            0           0     0     644     201552    `

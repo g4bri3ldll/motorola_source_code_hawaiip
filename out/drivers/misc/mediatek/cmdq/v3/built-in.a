@@ -1,0 +1,30 @@
+!<thin>
+//                                              230       `
+cmdq_sec.o/
+cmdq_sec_mtee.o/
+cmdq_sec_gp.o/
+cmdq_record.o/
+cmdq_virtual.o/
+cmdq_device.o/
+cmdq_driver.o/
+cmdq_mdp_common.o/
+cmdq_test.o/
+cmdq_event_common.o/
+cmdq_subsys_common.o/
+cmdq_helper_ext.o/
+cmdq_mmp.o/
+mt6765/cmdq_mdp.o/
+/0              0           0     0     644     452232    `
+/12             0           0     0     644     27208     `
+/29             0           0     0     644     24984     `
+/44             0           0     0     644     525096    `
+/59             0           0     0     644     275200    `
+/75             0           0     0     644     309176    `
+/90             0           0     0     644     397352    `
+/105            0           0     0     644     695088    `
+/124            0           0     0     644     1013368   `
+/137            0           0     0     644     66088     `
+/158            0           0     0     644     9424      `
+/180            0           0     0     644     1000064   `
+/199            0           0     0     644     6224      `
+/211            0           0     0     644     316480    `

@@ -1,0 +1,50 @@
+!<thin>
+//                                              682       `
+perfmgr_main.o/
+base/utility.o/
+syslimiter/syslimiter.o/
+boost_ctrl/boostctrl_main.o/
+boost_ctrl/dram_ctrl/dram_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl_cfp.o/
+boost_ctrl/eas_ctrl/eas_ctrl.o/
+boost_ctrl/eas_ctrl/uclamp_ctrl.o/
+boost_ctrl/topo_ctrl/topo_ctrl.o/
+tchbst/tchbst_main.o/
+tchbst/user/utch.o/
+perf_ioctl/perf_ioctl.o/
+fpsgo_v3/fpsgo_main.o/
+fpsgo_v3/base/src/fpsgo_base.o/
+fpsgo_v3/base/src/fpsgo_sysfs.o/
+fpsgo_v3/composer/src/fps_composer.o/
+fpsgo_v3/fbt/platform/mt6765/fbt_cpu_platform.o/
+fpsgo_v3/fbt/src/fbt_cpu.o/
+fpsgo_v3/fbt/src/xgf.o/
+fpsgo_v3/fbt/src/mini_top.o/
+fpsgo_v3/fstb/fstb.o/
+load_track/load_track.o/
+uload_ind/uload_ind.o/
+/0              0           0     0     644     189048    `
+/16             0           0     0     644     201432    `
+/32             0           0     0     644     227664    `
+/57             0           0     0     644     8440      `
+/86             0           0     0     644     157192    `
+/120            0           0     0     644     260528    `
+/152            0           0     0     644     258280    `
+/188            0           0     0     644     214768    `
+/220            0           0     0     644     265584    `
+/255            0           0     0     644     321952    `
+/289            0           0     0     644     8104      `
+/311            0           0     0     644     235680    `
+/331            0           0     0     644     218072    `
+/356            0           0     0     644     285792    `
+/379            0           0     0     644     285952    `
+/411            0           0     0     644     27384     `
+/444            0           0     0     644     197864    `
+/482            0           0     0     644     26104     `
+/531            0           0     0     644     589664    `
+/559            0           0     0     644     503168    `
+/583            0           0     0     644     431440    `
+/612            0           0     0     644     362272    `
+/634            0           0     0     644     89552     `
+/659            0           0     0     644     201592    `

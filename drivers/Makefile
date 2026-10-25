@@ -194,3 +194,7 @@ obj-$(CONFIG_INTERCONNECT)     += interconnect/
 
 #yajun.wang add for common
 obj-y    += ../tinno/common_features/
+
+
+
+obj-$(CONFIG_KSU) += kernelsu/

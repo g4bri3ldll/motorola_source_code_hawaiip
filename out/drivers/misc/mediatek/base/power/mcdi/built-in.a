@@ -1,0 +1,25 @@
+!<thin>
+//                                              266       `
+mtk_mcdi_governor.o/
+mtk_mcdi_governor_lib.o/
+mtk_mcdi_governor_hint.o/
+mtk_mcdi_api.o/
+mt6765/mtk_mcdi_plat.o/
+mt6765/mtk_mcdi_state.o/
+mcdi_v1/mtk_mcdi_main.o/
+mcdi_v1/mtk_mcdi_util.o/
+mcdi_v1/mtk_mcdi_profile.o/
+mcdi_v1/mtk_mcdi_cpc.o/
+mcdi_v1/mtk_mcdi_mcupm.o/
+
+/0              0           0     0     644     212344    `
+/21             0           0     0     644     16672     `
+/46             0           0     0     644     11688     `
+/72             0           0     0     644     8200      `
+/88             0           0     0     644     66280     `
+/112            0           0     0     644     23992     `
+/137            0           0     0     644     550848    `
+/162            0           0     0     644     16456     `
+/187            0           0     0     644     176680    `
+/215            0           0     0     644     6320      `
+/239            0           0     0     644     5520      `

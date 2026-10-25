@@ -1,0 +1,1 @@
+cmd_drivers/input/fingerprint/ET528/built-in.a :=  rm -f drivers/input/fingerprint/ET528/built-in.a; llvm-ar rcSTPD drivers/input/fingerprint/ET528/built-in.a drivers/input/fingerprint/ET528/etxxx_fp.o

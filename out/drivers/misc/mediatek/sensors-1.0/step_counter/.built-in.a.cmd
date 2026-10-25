@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/sensors-1.0/step_counter/built-in.a :=  rm -f drivers/misc/mediatek/sensors-1.0/step_counter/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/sensors-1.0/step_counter/built-in.a drivers/misc/mediatek/sensors-1.0/step_counter/step_counter.o drivers/misc/mediatek/sensors-1.0/step_counter/stepsignhub/built-in.a

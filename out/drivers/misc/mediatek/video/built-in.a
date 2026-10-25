@@ -1,0 +1,99 @@
+!<thin>
+//                                              1396      `
+mt6765/dispsys/ddp_ovl.o/
+mt6765/dispsys/ddp_rdma_ex.o/
+mt6765/dispsys/ddp_wdma_ex.o/
+mt6765/dispsys/ddp_dsi.o/
+mt6765/dispsys/ddp_clkmgr.o/
+mt6765/dispsys/ddp_rsz.o/
+mt6765/dispsys/ddp_drv.o/
+mt6765/dispsys/ddp_path.o/
+mt6765/dispsys/ddp_mutex.o/
+mt6765/dispsys/ddp_m4u.o/
+mt6765/dispsys/ddp_debug.o/
+mt6765/dispsys/ddp_dump.o/
+mt6765/dispsys/ddp_manager.o/
+mt6765/dispsys/ddp_irq.o/
+mt6765/dispsys/ddp_info.o/
+mt6765/dispsys/ddp_color_format.o/
+mt6765/dispsys/ddp_pwm_mux.o/
+mt6765/dispsys/ddp_mmp.o/
+mt6765/dispsys/ddp_met.o/
+mt6765/dispsys/display_recorder.o/
+mt6765/videox/mtkfb_console.o/
+mt6765/videox/disp_assert_layer.o/
+mt6765/videox/mtkfb.o/
+mt6765/videox/mtkfb_fence.o/
+mt6765/videox/fbconfig_kdebug.o/
+mt6765/videox/mtkfb_vsync.o/
+mt6765/videox/debug.o/
+mt6765/videox/primary_display.o/
+mt6765/videox/disp_lowpower.o/
+mt6765/videox/disp_recovery.o/
+mt6765/videox/disp_lcm.o/
+mt6765/videox/disp_utils.o/
+mt6765/videox/mtk_disp_mgr.o/
+mt6765/videox/compat_mtk_disp_mgr.o/
+mt6765/videox/disp_helper.o/
+mt6765/videox/disp_dts_gpio.o/
+mt6765/videox/disp_rect.o/
+mt6765/videox/disp_arr.o/
+mt6765/videox/disp_partial.o/
+mt6765/videox/mtk_ovl.o/
+mt6765/videox/layering_rule.o/
+mt6765/videox/frame_queue.o/
+common/pwm10/ddp_pwm.o/
+common/corr10/ddp_dither.o/
+common/corr10/ddp_gamma.o/
+common/color20/ddp_color.o/
+common/aal30/ddp_aal.o/
+common/layering_rule_base/v1.1/layering_rule_base.o/
+
+/0              0           0     0     644     795696    `
+/26             0           0     0     644     565328    `
+/56             0           0     0     644     558096    `
+/86             0           0     0     644     1455576   `
+/112            0           0     0     644     271072    `
+/141            0           0     0     644     314896    `
+/167            0           0     0     644     278800    `
+/193            0           0     0     644     323968    `
+/220            0           0     0     644     266688    `
+/248            0           0     0     644     244048    `
+/274            0           0     0     644     269416    `
+/302            0           0     0     644     453088    `
+/329            0           0     0     644     451408    `
+/359            0           0     0     644     274960    `
+/385            0           0     0     644     89944     `
+/412            0           0     0     644     24680     `
+/447            0           0     0     644     200656    `
+/477            0           0     0     644     66776     `
+/503            0           0     0     644     11856     `
+/529            0           0     0     644     303408    `
+/564            0           0     0     644     46872     `
+/595            0           0     0     644     62576     `
+/630            0           0     0     644     580256    `
+/653            0           0     0     644     334544    `
+/682            0           0     0     644     1172216   `
+/715            0           0     0     644     232640    `
+/744            0           0     0     644     469928    `
+/767            0           0     0     644     1312160   `
+/800            0           0     0     644     431032    `
+/831            0           0     0     644     386080    `
+/862            0           0     0     644     153000    `
+/888            0           0     0     644     11080     `
+/916            0           0     0     644     439432    `
+/946            0           0     0     644     2623160   `
+/983            0           0     0     644     31520     `
+/1012           0           0     0     644     188904    `
+/1043           0           0     0     644     21216     `
+/1070           0           0     0     644     246448    `
+/1096           0           0     0     644     252960    `
+/1126           0           0     0     644     371920    `
+/1151           0           0     0     644     61848     `
+/1182           0           0     0     644     222416    `
+/1211           0           0     0     644     311488    `
+/1235           0           0     0     644     320624    `
+/1263           0           0     0     644     381064    `
+/1290           0           0     0     644     415584    `
+/1318           0           0     0     644     429072    `
+/1342           0           0     0     644     334440    `

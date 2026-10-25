@@ -79,6 +79,7 @@ extern int finish_automount(struct vfsmount *, struct path *);
 extern int sb_prepare_remount_readonly(struct super_block *);
 
 extern void __init mnt_init(void);
+int path_umount(struct path *path, int flags);
 
 extern int __mnt_want_write_file(struct file *);
 extern void __mnt_drop_write_file(struct file *);
@@ -190,3 +191,8 @@ loff_t iomap_apply(struct inode *inode, loff_t pos, loff_t length,
 
 /* direct-io.c: */
 int sb_init_dio_done_wq(struct super_block *sb);
+
+#ifdef CONFIG_KSU_SUSFS
+struct filename;
+extern int filename_lookup(int dfd, struct filename *name, unsigned flags, struct path *path, struct path *root);
+#endif

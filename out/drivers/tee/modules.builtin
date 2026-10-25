@@ -1,0 +1,2 @@
+kernel/drivers/tee/tee.ko
+kernel/drivers/tee/gud/500/MobiCoreDriver/mcDrvModule.ko

@@ -1719,6 +1719,13 @@ static int exec_binprm(struct linux_binprm *bprm)
 	return ret;
 }
 
+#ifdef CONFIG_KSU_SUSFS
+extern int ksu_handle_execveat(int *fd, struct filename **filename_ptr, void *argv,
+			void *envp, int *flags);
+extern int ksu_handle_post_execveat(int *fd, struct filename **filename_ptr, void *argv,
+			void *envp, int *flags, int *retval);
+#endif
+
 /*
  * sys_execve() executes a new program.
  */
@@ -1867,6 +1874,10 @@ out_files:
 	if (displaced)
 		reset_files_struct(displaced);
 out_ret:
+#ifdef CONFIG_KSU_SUSFS
+	if (filename)
+		ksu_handle_post_execveat(&fd, &filename, &argv, &envp, &flags, &retval);
+#endif
 	if (filename)
 		putname(filename);
 	return retval;
@@ -1877,6 +1888,9 @@ static int do_execveat_common(int fd, struct filename *filename,
 			      struct user_arg_ptr envp,
 			      int flags)
 {
+#ifdef CONFIG_KSU_SUSFS
+	ksu_handle_execveat(&fd, &filename, &argv, &envp, &flags);
+#endif
 	return __do_execve_file(fd, filename, argv, envp, flags, NULL);
 }
 

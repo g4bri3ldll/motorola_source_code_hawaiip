@@ -1,0 +1,1 @@
+cmd_drivers/../tinno/common_features/lcm/icnL9911c_p410_hdplus_dsi_vdo_boe/built-in.a :=  rm -f drivers/../tinno/common_features/lcm/icnL9911c_p410_hdplus_dsi_vdo_boe/built-in.a; llvm-ar rcSTPD drivers/../tinno/common_features/lcm/icnL9911c_p410_hdplus_dsi_vdo_boe/built-in.a drivers/../tinno/common_features/lcm/icnL9911c_p410_hdplus_dsi_vdo_boe/icnL9911c_p410_hdplus_dsi_vdo_boe.o

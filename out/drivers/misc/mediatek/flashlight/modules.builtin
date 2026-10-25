@@ -1,0 +1,3 @@
+kernel/drivers/misc/mediatek/flashlight/flashlight.ko
+kernel/drivers/misc/mediatek/flashlight/flashlights-mt6370.ko
+kernel/drivers/misc/mediatek/flashlight/flashlights-aw36514.ko

@@ -1,0 +1,65 @@
+!<thin>
+//                                              462       `
+dummy.o/
+mii.o/
+Space.o/
+loopback.o/
+phy/mdio-boardinfo.o/
+phy/phy.o/
+phy/phy-c45.o/
+phy/phy-core.o/
+phy/phy_device.o/
+phy/mdio_bus.o/
+phy/mdio_device.o/
+phy/swphy.o/
+phy/fixed_phy.o/
+tun.o/
+veth.o/
+virtio_net.o/
+ppp/ppp_generic.o/
+ppp/bsd_comp.o/
+ppp/ppp_deflate.o/
+ppp/ppp_mppe.o/
+ppp/pppox.o/
+ppp/pptp.o/
+slip/slhc.o/
+wireless/virt_wifi.o/
+usb/r8152.o/
+usb/asix_devices.o/
+usb/asix_common.o/
+usb/ax88172a.o/
+usb/ax88179_178a.o/
+usb/usbnet.o/
+net_failover.o/
+
+/0              0           0     0     644     279296    `
+/9              0           0     0     644     287184    `
+/16             0           0     0     644     236904    `
+/25             0           0     0     644     332656    `
+/37             0           0     0     644     144992    `
+/59             0           0     0     644     351112    `
+/70             0           0     0     644     189160    `
+/85             0           0     0     644     198720    `
+/101            0           0     0     644     448896    `
+/119            0           0     0     644     401064    `
+/135            0           0     0     644     176896    `
+/154            0           0     0     644     14496     `
+/167            0           0     0     644     212608    `
+/184            0           0     0     644     828152    `
+/191            0           0     0     644     509696    `
+/199            0           0     0     644     776256    `
+/213            0           0     0     644     696880    `
+/232            0           0     0     644     64512     `
+/248            0           0     0     644     59728     `
+/267            0           0     0     644     188840    `
+/283            0           0     0     644     338640    `
+/296            0           0     0     644     434840    `
+/308            0           0     0     644     43288     `
+/321            0           0     0     644     393320    `
+/343            0           0     0     644     1081024   `
+/356            0           0     0     644     364856    `
+/376            0           0     0     644     352624    `
+/395            0           0     0     644     302032    `
+/411            0           0     0     644     402608    `
+/431            0           0     0     644     592520    `
+/445            0           0     0     644     351688    `

@@ -1,0 +1,18 @@
+!<thin>
+//                                              136       `
+ilitek_v3.o/
+ilitek_v3_spi.o/
+ilitek_v3_mtk.o/
+ilitek_v3_ic.o/
+ilitek_v3_touch.o/
+ilitek_v3_mp.o/
+ilitek_v3_hostdl.o/
+ilitek_v3_node.o/
+/0              0           0     0     644     593408    `
+/13             0           0     0     644     405816    `
+/30             0           0     0     644     411352    `
+/47             0           0     0     644     114192    `
+/63             0           0     0     644     459848    `
+/82             0           0     0     644     675152    `
+/98             0           0     0     644     414328    `
+/118            0           0     0     644     729936    `

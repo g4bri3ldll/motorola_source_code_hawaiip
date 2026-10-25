@@ -1,0 +1,6 @@
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw87xxx.ko
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw_device.ko
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw_monitor.ko
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw_bin_parse.ko
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw_dsp.ko
+kernel/drivers/../tinno/common_features/smartpa/aw87xxx/aw_acf_bin.ko

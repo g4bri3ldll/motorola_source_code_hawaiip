@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/sensors-1.0/situation/sig_move/built-in.a :=  rm -f drivers/misc/mediatek/sensors-1.0/situation/sig_move/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/sensors-1.0/situation/sig_move/built-in.a drivers/misc/mediatek/sensors-1.0/situation/sig_move/sig_move.o

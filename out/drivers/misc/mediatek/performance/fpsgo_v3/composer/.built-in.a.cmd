@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/performance/fpsgo_v3/composer/built-in.a :=  rm -f drivers/misc/mediatek/performance/fpsgo_v3/composer/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/performance/fpsgo_v3/composer/built-in.a drivers/misc/mediatek/performance/fpsgo_v3/composer/src/fps_composer.o

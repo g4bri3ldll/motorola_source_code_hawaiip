@@ -1,0 +1,1 @@
+cmd_drivers/devfreq/built-in.a :=  rm -f drivers/devfreq/built-in.a; llvm-ar rcSTPD drivers/devfreq/built-in.a drivers/devfreq/devfreq.o drivers/devfreq/governor_performance.o drivers/devfreq/governor_powersave.o drivers/devfreq/governor_userspace.o drivers/devfreq/governor_passive.o

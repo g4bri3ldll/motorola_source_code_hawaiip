@@ -1,0 +1,50 @@
+!<thin>
+//                                              610       `
+media-device.o/
+media-devnode.o/
+media-entity.o/
+media-request.o/
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-compat-ioctl32.o/
+v4l2-core/v4l2-trace.o/
+v4l2-core/v4l2-mc.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-dv-timings.o/
+v4l2-core/v4l2-mem2mem.o/
+common/videobuf2/videobuf2-core.o/
+common/videobuf2/vb2-trace.o/
+common/videobuf2/videobuf2-v4l2.o/
+common/videobuf2/videobuf2-memops.o/
+common/videobuf2/videobuf2-vmalloc.o/
+/0              0           0     0     644     257496    `
+/16             0           0     0     644     168968    `
+/33             0           0     0     644     244224    `
+/49             0           0     0     644     181328    `
+/66             0           0     0     644     382280    `
+/88             0           0     0     644     492688    `
+/112            0           0     0     644     218144    `
+/137            0           0     0     644     196624    `
+/158            0           0     0     644     183904    `
+/182            0           0     0     644     528872    `
+/206            0           0     0     644     237488    `
+/231            0           0     0     644     172856    `
+/253            0           0     0     644     216984    `
+/277            0           0     0     644     1419336   `
+/310            0           0     0     644     280192    `
+/334            0           0     0     644     198480    `
+/355            0           0     0     644     235344    `
+/380            0           0     0     644     92288     `
+/409            0           0     0     644     339616    `
+/435            0           0     0     644     357552    `
+/470            0           0     0     644     228776    `
+/500            0           0     0     644     290512    `
+/535            0           0     0     644     143448    `
+/572            0           0     0     644     181592    `

@@ -1,0 +1,14 @@
+!<thin>
+//                                              136       `
+nanohub/main.o/
+nanohub/bl.o/
+nanohub/comms.o/
+nanohub/nanohub-mtk.o/
+SCP_nanoHub/SCP_nanoHub.o/
+SCP_power_monitor/SCP_power_monitor.o/
+/0              0           0     0     644     249120    `
+/16             0           0     0     644     170248    `
+/30             0           0     0     644     190416    `
+/47             0           0     0     644     199056    `
+/70             0           0     0     644     409328    `
+/97             0           0     0     644     21208     `

@@ -1,0 +1,48 @@
+!<thin>
+//                                              654       `
+mtk_thermal_platform.o/
+ap_thermal_limit.o/
+thermal_zones/mtk_ts_battery.o/
+thermal_zones/mtk_ts_bts.o/
+thermal_zones/mtk_ts_btsmdpa.o/
+thermal_zones/mtk_ts_cpu_noBank.o/
+thermal_zones/mtk_ts_pa.o/
+thermal_zones/mtk_ts_pa_thput.o/
+thermal_zones/mtk_ts_pmic.o/
+thermal_zones/mtk_ts_btscharger.o/
+thermal_zones/mtk_ts_charger2.o/
+thermal_zones/mtk_ts_wmt.o/
+thermal_zones/mtk_tsAll.o/
+thermal_zones/mtk_ts_imgsensor.o/
+coolers/mtk_ta.o/
+coolers/mtk_cooler_mutt.o/
+coolers/mtk_cooler_bcct_v1.o/
+coolers/mtk_cooler_bcct_2nd.o/
+coolers/mtk_cooler_atm.o/
+coolers/mtk_cooler_dtm.o/
+coolers/mtk_cooler_sysrst.o/
+coolers/mtk_cooler_VR_FPS.o/
+mtk_thermal_timer.o/
+/0              0           0     0     644     225768    `
+/24             0           0     0     644     37896     `
+/44             0           0     0     644     270376    `
+/76             0           0     0     644     271600    `
+/104            0           0     0     644     266520    `
+/136            0           0     0     644     332048    `
+/171            0           0     0     644     348128    `
+/198            0           0     0     644     259720    `
+/231            0           0     0     644     229368    `
+/260            0           0     0     644     222768    `
+/295            0           0     0     644     221568    `
+/328            0           0     0     644     455688    `
+/356            0           0     0     644     449096    `
+/383            0           0     0     644     511984    `
+/417            0           0     0     644     360864    `
+/435            0           0     0     644     295184    `
+/462            0           0     0     644     335192    `
+/492            0           0     0     644     323880    `
+/523            0           0     0     644     434040    `
+/549            0           0     0     644     171160    `
+/575            0           0     0     644     165368    `
+/604            0           0     0     644     163968    `
+/633            0           0     0     644     20848     `

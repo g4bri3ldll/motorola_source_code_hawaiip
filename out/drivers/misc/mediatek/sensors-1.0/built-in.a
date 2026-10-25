@@ -1,0 +1,78 @@
+!<thin>
+//                                              1214      `
+sensorHub/nanohub/main.o/
+sensorHub/nanohub/bl.o/
+sensorHub/nanohub/comms.o/
+sensorHub/nanohub/nanohub-mtk.o/
+sensorHub/SCP_nanoHub/SCP_nanoHub.o/
+sensorHub/SCP_power_monitor/SCP_power_monitor.o/
+hwmon/hwmsen/hwmsen_helper.o/
+hwmon/sensor_dts/sensor_dts.o/
+hwmon/sensor_attributes/sensor_attr.o/
+hwmon/sensor_event/sensor_event.o/
+hwmon/sensor_performance/sensor_performance.o/
+hwmon/sensor_list/sensor_list.o/
+alsps/alsps.o/
+alsps/alsps_factory.o/
+alsps/aal_control.o/
+alsps/alspshub/alspshub.o/
+accelerometer/accel.o/
+accelerometer/accel_factory.o/
+accelerometer/accelhub/accelhub.o/
+gyroscope/gyroscope.o/
+gyroscope/gyro_factory.o/
+gyroscope/gyrohub/gyrohub.o/
+magnetometer/mag.o/
+magnetometer/mag_factory.o/
+magnetometer/maghub/maghub.o/
+step_counter/step_counter.o/
+step_counter/stepsignhub/stepsignhub.o/
+situation/situation.o/
+situation/stationary/stationary.o/
+situation/wake_gesture/wake_gesture.o/
+situation/glance_gesture/glance_gesture.o/
+situation/device_orientation/device_orientation.o/
+situation/flip_twist/flip_twist.o/
+situation/chop_chop/chop_chop.o/
+situation/sig_move/sig_move.o/
+sensorfusion/fusion.o/
+sensorfusion/uncali_acchub/uncali_acchub.o/
+sensorfusion/uncali_gyrohub/uncali_gyrohub.o/
+/0              0           0     0     644     249120    `
+/26             0           0     0     644     170248    `
+/50             0           0     0     644     190416    `
+/77             0           0     0     644     199056    `
+/110            0           0     0     644     409328    `
+/147            0           0     0     644     21208     `
+/196            0           0     0     644     217496    `
+/226            0           0     0     644     123904    `
+/257            0           0     0     644     139456    `
+/296            0           0     0     644     132744    `
+/331            0           0     0     644     1232      `
+/378            0           0     0     644     148648    `
+/411            0           0     0     644     273920    `
+/426            0           0     0     644     188128    `
+/449            0           0     0     644     156968    `
+/470            0           0     0     644     274984    `
+/497            0           0     0     644     234320    `
+/520            0           0     0     644     172568    `
+/551            0           0     0     644     234848    `
+/586            0           0     0     644     244744    `
+/609            0           0     0     644     179112    `
+/635            0           0     0     644     247880    `
+/664            0           0     0     644     226576    `
+/684            0           0     0     644     160288    `
+/712            0           0     0     644     228064    `
+/742            0           0     0     644     257088    `
+/771            0           0     0     644     181440    `
+/811            0           0     0     644     197944    `
+/834            0           0     0     644     26192     `
+/869            0           0     0     644     26368     `
+/908            0           0     0     644     25720     `
+/951            0           0     0     644     26952     `
+/1002           0           0     0     644     24200     `
+/1037           0           0     0     644     24160     `
+/1070           0           0     0     644     24136     `
+/1101           0           0     0     644     225416    `
+/1124           0           0     0     644     27088     `
+/1168           0           0     0     644     30736     `
