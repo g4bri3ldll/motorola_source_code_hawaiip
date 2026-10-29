@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/dcm/built-in.a :=  rm -f drivers/misc/mediatek/dcm/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/dcm/built-in.a drivers/misc/mediatek/dcm/mtk_dcm.o drivers/misc/mediatek/dcm/mt6765_dcm_internal.o drivers/misc/mediatek/dcm/mt6765_dcm_autogen.o

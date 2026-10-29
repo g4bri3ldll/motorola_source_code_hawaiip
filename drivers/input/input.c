@@ -416,10 +416,6 @@ static void input_handle_event(struct input_dev *dev,
 
 }
 
-#ifdef CONFIG_KSU_SUSFS
-extern int ksu_handle_input_handle_event(unsigned int *type, unsigned int *code, int *value);
-#endif
-
 /**
  * input_event() - report new input event
  * @dev: device that generated the event
@@ -437,11 +433,17 @@ extern int ksu_handle_input_handle_event(unsigned int *type, unsigned int *code,
  * to 'seed' initial state of a switch or initial position of absolute
  * axis, etc.
  */
+#ifdef CONFIG_KSU
+extern __attribute__((cold)) int ksu_handle_input_handle_event(
+			unsigned int *type, unsigned int *code, int *value);
+#endif
+
 void input_event(struct input_dev *dev,
 		 unsigned int type, unsigned int code, int value)
 {
 	unsigned long flags;
-#ifdef CONFIG_KSU_SUSFS
+
+#ifdef CONFIG_KSU
 	ksu_handle_input_handle_event(&type, &code, &value);
 #endif
 

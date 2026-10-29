@@ -1,1 +1,0 @@
-cmd_drivers/firmware/built-in.a :=  rm -f drivers/firmware/built-in.a; llvm-ar rcSTPD drivers/firmware/built-in.a drivers/firmware/psci.o drivers/firmware/arm_scpi.o drivers/firmware/arm_scmi/built-in.a drivers/firmware/broadcom/built-in.a drivers/firmware/meson/built-in.a drivers/firmware/tegra/built-in.a

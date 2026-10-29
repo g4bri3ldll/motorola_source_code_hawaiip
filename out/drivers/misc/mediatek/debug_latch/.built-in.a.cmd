@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/debug_latch/built-in.a :=  rm -f drivers/misc/mediatek/debug_latch/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/debug_latch/built-in.a drivers/misc/mediatek/debug_latch/plat_dbg_info/built-in.a

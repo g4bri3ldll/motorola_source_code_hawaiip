@@ -1,1 +1,0 @@
-cmd_drivers/mfd/built-in.a :=  rm -f drivers/mfd/built-in.a; llvm-ar rcSTPD drivers/mfd/built-in.a drivers/mfd/act8945a.o drivers/mfd/mfd-core.o drivers/mfd/syscon.o drivers/mfd/mt6397-core.o drivers/mfd/mt6397-irq.o drivers/mfd/mt6358-irq.o drivers/mfd/mt6358-ipi.o drivers/mfd/mt63xx-oc-debug.o

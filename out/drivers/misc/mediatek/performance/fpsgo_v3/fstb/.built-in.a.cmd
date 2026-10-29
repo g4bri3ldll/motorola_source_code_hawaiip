@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/performance/fpsgo_v3/fstb/built-in.a :=  rm -f drivers/misc/mediatek/performance/fpsgo_v3/fstb/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/performance/fpsgo_v3/fstb/built-in.a drivers/misc/mediatek/performance/fpsgo_v3/fstb/fstb.o

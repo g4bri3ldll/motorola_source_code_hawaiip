@@ -1,0 +1,175 @@
+  GEN     ./Makefile
+  Using .. as source for kernel
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      fs/notify/fdinfo.o
+  CHK     kernel/kheaders_data.tar.xz
+../drivers/../tinno/common_features/dev_info/Makefile:5: ---[WD]---
+  AR      fs/notify/built-in.a
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+  CC      fs/susfs.o
+$GED: CONFIG_MTK_PLATFORM is ["mt6765"]
+[GPU_DEBUG] MTK_GPU_VERSION 2 = doma
+[GPU_DEBUG] MTK_PLATFORM = mt6765
+-- BakaSU version code: 35251
+-- BakaSU version name: v4.2.0-rc3-c0c96a40
+-- Supported Managers: KernelSU Official, KOWSU, BakaSU 
+-- KERNEL_VERSION: 4.19
+-- KERNEL_TYPE: Non-GKI
+-- BakaSU: using SuSFS Inline hook
+-- You are using SUSFS, if you face any issues, please MAKE SURE you are using LATEST SUSFS KERNEL SIDE before submit issue to BakaSU.
+-- We keep tracking simonpunk's latest changes, and don't maintain ANY backward compatibility for old version of susfs.
+-- BakaSU/susfs_inline: ksu_handle_setresuid found
+-- BakaSU/susfs_inline: ksu_handle_execveat found
+-- BakaSU/susfs_inline: ksu_handle_faccessat found
+-- BakaSU/susfs_inline: ksu_handle_sys_read found
+-- BakaSU/susfs_inline: ksu_handle_stat found
+-- BakaSU/susfs_inline: ksu_handle_sys_reboot found
+-- BakaSU/susfs_inline: ksu_handle_input_handle_event found
+
+-- SUSFS_VERSION: v2.3.0
+-- BakaSU/compat: current_sid found
+-- BakaSU/compat: selinux_state found
+-- BakaSU/compat: kernel_read found
+-- BakaSU/compat: kernel_write found
+-- BakaSU/compat: file_inode() found
+-- BakaSU/compat: ns_get_path found
+-- BakaSU/compat: modern dentry_open found
+-- BakaSU/compat: ext4_unregister_sysfs found
+-- BakaSU/compat: f_op->read_iter found
+-- BakaSU/compat: iterate_dir found
+-- BakaSU/compat: modern static_key_interface found
+-- BakaSU/compat: d_inode found
+-- BakaSU/compat: inode_lock found
+-- BakaSU/compat: modern errno file found
+-- BakaSU/compat: overflow.h found
+-- BakaSU/compat: modern proc ns header file found
+-- BakaSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_ROUTE found!!
+-- BakaSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_GETNEIGH found!!
+-- BakaSU/compat: found sidtab as reference
+-- BakaSU/compat: found hlist in security_hook_list
+-- BakaSU/compat: found new setprocattr prototype
+-- BakaSU/compat: found required provide lsm name
+-- BakaSU/compat: found security_add_hooks
+-- BakaSU/compat: ksu_handle_post_execve hook not found
+-- BakaSU/compat: modern dentry_open found
+-- BakaSU/compat: extended_perms found
+-- BakaSU/compat: stricter mls_context_to_sid found
+-- BakaSU/compat: found hash indexed sidtab
+-- BakaSU/compat: found KERNEL_PARAM_OPS_FL_NOARG
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+  AR      fs/built-in.a
+../drivers/misc/mediatek/base/power/qos/Makefile:45: Texto estranho depois da diretiva 'else' 
+..
+FDVT: Drv use 4.0 folder
+..
+../drivers/misc/mediatek/ccu/src/Makefile:33: CCU_MAKE_FILE_CALLED
+../drivers/misc/mediatek/ccu/src/1.2/Makefile:28: CCU_INC=../drivers/misc/mediatek/ccu/src/mt6765/ccu_ext_interface
+../drivers/misc/mediatek/base/power/upower_v2/Makefile:33: Texto estranho depois da diretiva 'ifeq' 
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+CONFIG_MTK_PLATFORM_CCCI := mt6765
+CONFIG_MTK_PLATFORM_CCCI := "mt6765"
+MTK_PLATFORM_CCCI := mt6765
+CONFIG_MTK_PLATFORM := mt6765
+CONFIG_MTK_PLATFORM := "mt6765"
+MTK_PLATFORM := "mt6765"
+CONFIG_MTK_PLATFORM := mt6765
+CONFIG_MTK_PLATFORM := "mt6765"
+MTK_PLATFORM := "mt6765"
+ION:enable mtk ion
+  AR      drivers/misc/mediatek/eccci/built-in.a
+************  drivers/trusty/mtee-kree mk ************
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+xuli add camera  ARCH_MTK_PROJECT: p410ae
+sensorlist2 camera_project/p410ae/v1 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/s5kjn1_qt_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/hi1336_qtech_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/hi1634_qt_p411be_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/s5k4h7sub_qt_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/ov16a1q_qt_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/hi1634_qt_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/s5k4h7wide_qt_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/gc2m1b_tsp_p410ae_mipi_raw 
+xuli platfrom  ../drivers/misc/mediatek/imgsensor/src/mt6765/camera_project/p410ae/v1
+../drivers/misc/mediatek/imgsensor/src/mt6765 
+xuli select build custom  imgsensor camera_project/p410ae/v1/gc02m1_tsp_p410ae_mipi_raw 
+imgsensor drv by platform ./camera_project/p410ae/v1/s5kjn1_qt_p410ae_mipi_raw/ ./camera_project/p410ae/v1/hi1336_qtech_p410ae_mipi_raw/ ./camera_project/p410ae/v1/hi1634_qt_p411be_mipi_raw/ ./camera_project/p410ae/v1/s5k4h7sub_qt_p410ae_mipi_raw/ ./camera_project/p410ae/v1/ov16a1q_qt_p410ae_mipi_raw/ ./camera_project/p410ae/v1/hi1634_qt_p410ae_mipi_raw/ ./camera_project/p410ae/v1/s5k4h7wide_qt_p410ae_mipi_raw/ ./camera_project/p410ae/v1/gc2m1b_tsp_p410ae_mipi_raw/ ./camera_project/p410ae/v1/gc02m1_tsp_p410ae_mipi_raw/
+M4U platform folder:"mt6765"
+M4U version:2.0
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+shaohua
+
+y
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+../drivers/tee/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+../drivers/tee/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "500""
+  AR      drivers/misc/mediatek/built-in.a
+  AR      drivers/misc/built-in.a
+  AR      drivers/built-in.a
+  GEN     .version
+  CHK     include/generated/compile.h
+  AR      built-in.a
+  MODPOST vmlinux.o
+WARNING: modpost: Found 15 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  Building modules, stage 2.
+  MODPOST 11 modules
+WARNING: drivers/power/supply/mt6359_battery: 'scc_get_capacity' exported twice. Previous export was in vmlinux
+WARNING: sound/soc/codecs/mt6359-accdet: 'accdet_read_audio_res' exported twice. Previous export was in sound/soc/codecs/mt6357-accdet.ko
+WARNING: sound/soc/codecs/mt6359-accdet: 'accdet_late_init' exported twice. Previous export was in sound/soc/codecs/mt6357-accdet.ko
+  CC      drivers/mmc/host/sdhci-pltfm.mod.o
+  CC      drivers/mmc/host/sdhci.mod.o
+  CC      drivers/power/supply/mt6359_battery.mod.o
+  GZIP    arch/arm64/boot/Image.gz
+  CC      drivers/tty/serial/8250/8250_of.mod.o
+  CC      drivers/usb/gadget/udc/dummy_hcd.mod.o
+  CC      kernel/kheaders.mod.o
+  CC      kernel/trace/trace_mmstat.mod.o
+  CC      net/ipv4/tcp_htcp.mod.o
+  CC      net/ipv4/tcp_westwood.mod.o
+  CC      sound/soc/codecs/mt6357-accdet.mod.o
+  CC      sound/soc/codecs/mt6359-accdet.mod.o
+  LD [M]  drivers/mmc/host/sdhci-pltfm.ko
+  LD [M]  drivers/mmc/host/sdhci.ko
+  LD [M]  drivers/power/supply/mt6359_battery.ko
+  LD [M]  drivers/tty/serial/8250/8250_of.ko
+  LD [M]  drivers/usb/gadget/udc/dummy_hcd.ko
+  LD [M]  kernel/kheaders.ko
+  LD [M]  kernel/trace/trace_mmstat.ko
+  LD [M]  net/ipv4/tcp_htcp.ko
+  LD [M]  net/ipv4/tcp_westwood.ko
+  LD [M]  sound/soc/codecs/mt6359-accdet.ko
+  LD [M]  sound/soc/codecs/mt6357-accdet.ko

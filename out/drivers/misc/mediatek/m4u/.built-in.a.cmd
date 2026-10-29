@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/m4u/built-in.a :=  rm -f drivers/misc/mediatek/m4u/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/m4u/built-in.a drivers/misc/mediatek/m4u/mt6765/built-in.a drivers/misc/mediatek/m4u/2.0/built-in.a

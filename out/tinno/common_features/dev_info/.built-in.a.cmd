@@ -1,1 +1,0 @@
-cmd_drivers/../tinno/common_features/dev_info/built-in.a :=  rm -f drivers/../tinno/common_features/dev_info/built-in.a; llvm-ar rcSTPD drivers/../tinno/common_features/dev_info/built-in.a drivers/../tinno/common_features/dev_info/dev_info.o drivers/../tinno/common_features/dev_info/external.o

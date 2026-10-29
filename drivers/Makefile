@@ -197,4 +197,3 @@ obj-y    += ../tinno/common_features/
 
 
 
-obj-$(CONFIG_KSU) += kernelsu/

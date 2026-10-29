@@ -1,1 +1,0 @@
-cmd_drivers/input/fingerprint/INCF7312/built-in.a :=  rm -f drivers/input/fingerprint/INCF7312/built-in.a; llvm-ar rcSTPD drivers/input/fingerprint/INCF7312/built-in.a drivers/input/fingerprint/INCF7312/fpsensor_spi_tee.o

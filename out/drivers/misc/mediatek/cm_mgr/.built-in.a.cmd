@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/cm_mgr/built-in.a :=  rm -f drivers/misc/mediatek/cm_mgr/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/cm_mgr/built-in.a drivers/misc/mediatek/cm_mgr/mtk_cm_mgr_common.o drivers/misc/mediatek/cm_mgr/mtk_cm_mgr_mt6765.o

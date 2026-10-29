@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/memory-amms/built-in.a :=  rm -f drivers/misc/mediatek/memory-amms/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/memory-amms/built-in.a drivers/misc/mediatek/memory-amms/memory-amms.o

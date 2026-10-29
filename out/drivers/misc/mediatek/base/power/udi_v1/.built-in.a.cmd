@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/base/power/udi_v1/built-in.a :=  rm -f drivers/misc/mediatek/base/power/udi_v1/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/base/power/udi_v1/built-in.a drivers/misc/mediatek/base/power/udi_v1/mtk_udi.o

@@ -66,6 +66,8 @@ long do_symlinkat(const char __user *oldname, int newdfd,
 		  const char __user *newname);
 int do_linkat(int olddfd, const char __user *oldname, int newdfd,
 	      const char __user *newname, int flags);
+extern int filename_lookup(int dfd, struct filename *name, unsigned flags,
+			   struct path *path, struct path *root);
 
 /*
  * namespace.c

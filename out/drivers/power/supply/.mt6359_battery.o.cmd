@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/mt6359_battery.o := ld.lld -EL  -maarch64elf   -r -o drivers/power/supply/mt6359_battery.o drivers/power/supply/mtk_battery_coulomb_service.o drivers/power/supply/mtk_battery.o drivers/power/supply/mtk_battery_algo.o drivers/power/supply/mtk_battery_daemon.o drivers/power/supply/mt6359-gauge.o 

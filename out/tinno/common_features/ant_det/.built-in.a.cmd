@@ -1,1 +1,0 @@
-cmd_drivers/../tinno/common_features/ant_det/built-in.a :=  rm -f drivers/../tinno/common_features/ant_det/built-in.a; llvm-ar rcSTPD drivers/../tinno/common_features/ant_det/built-in.a drivers/../tinno/common_features/ant_det/ant_det.o

@@ -1,1 +1,0 @@
-cmd_drivers/memory/mediatek/built-in.a :=  rm -f drivers/memory/mediatek/built-in.a; llvm-ar rcSTPD drivers/memory/mediatek/built-in.a drivers/memory/mediatek/dramc.o drivers/memory/mediatek/dramc_bin.o drivers/memory/mediatek/emicen.o drivers/memory/mediatek/emimpu.o drivers/memory/mediatek/emiisu.o

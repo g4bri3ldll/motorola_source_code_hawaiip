@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/monitor_hang/built-in.a :=  rm -f drivers/misc/mediatek/monitor_hang/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/monitor_hang/built-in.a drivers/misc/mediatek/monitor_hang/monitor_hang.o

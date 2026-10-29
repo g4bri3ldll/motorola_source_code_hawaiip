@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/clkbuf/built-in.a :=  rm -f drivers/misc/mediatek/clkbuf/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/clkbuf/built-in.a drivers/misc/mediatek/clkbuf/mtk-clkbuf-bridge.o drivers/misc/mediatek/clkbuf/src/mtk-clkbuf-pmic.o drivers/misc/mediatek/clkbuf/src/mtk-clkbuf-ctl.o drivers/misc/mediatek/clkbuf/src/mtk-clkbuf-hw.o

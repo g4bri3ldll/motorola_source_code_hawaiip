@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/tee_sanity/built-in.a :=  rm -f drivers/misc/mediatek/tee_sanity/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/tee_sanity/built-in.a drivers/misc/mediatek/tee_sanity/tee_sanity.o

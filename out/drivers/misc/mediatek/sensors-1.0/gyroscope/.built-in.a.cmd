@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sensors-1.0/gyroscope/built-in.a :=  rm -f drivers/misc/mediatek/sensors-1.0/gyroscope/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/sensors-1.0/gyroscope/built-in.a drivers/misc/mediatek/sensors-1.0/gyroscope/gyroscope.o drivers/misc/mediatek/sensors-1.0/gyroscope/gyro_factory.o drivers/misc/mediatek/sensors-1.0/gyroscope/gyrohub/built-in.a

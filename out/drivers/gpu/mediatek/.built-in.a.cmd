@@ -1,1 +1,0 @@
-cmd_drivers/gpu/mediatek/built-in.a :=  rm -f drivers/gpu/mediatek/built-in.a; llvm-ar rcSTPD drivers/gpu/mediatek/built-in.a drivers/gpu/mediatek/hal/built-in.a drivers/gpu/mediatek/gpufreq/built-in.a drivers/gpu/mediatek/ged/built-in.a drivers/gpu/mediatek/gpu_rgx/built-in.a

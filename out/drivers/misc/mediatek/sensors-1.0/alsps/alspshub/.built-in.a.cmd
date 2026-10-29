@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sensors-1.0/alsps/alspshub/built-in.a :=  rm -f drivers/misc/mediatek/sensors-1.0/alsps/alspshub/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/sensors-1.0/alsps/alspshub/built-in.a drivers/misc/mediatek/sensors-1.0/alsps/alspshub/alspshub.o

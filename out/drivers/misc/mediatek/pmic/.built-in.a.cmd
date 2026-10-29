@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/pmic/built-in.a :=  rm -f drivers/misc/mediatek/pmic/built-in.a; llvm-ar rcSTPD drivers/misc/mediatek/pmic/built-in.a drivers/misc/mediatek/pmic/mt6370/built-in.a drivers/misc/mediatek/pmic/mt6397/built-in.a
